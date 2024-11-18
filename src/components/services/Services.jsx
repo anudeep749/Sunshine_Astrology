@@ -3,10 +3,10 @@ import ServicesBox from "./ServicesBox";  // Component to display individual ser
 
 const Services = () => {
   return (
-    <section className="bg-secondary dark:bg-gray-900 dark:text-white py-16">
+    <section id="services" className="bg-secondary dark:bg-gray-900 dark:text-white py-16">
       <div className="container flex flex-col items-center">
         <h1 className="inline-block text-3xl text-center font-bold mb-3 border-b-2 border-primary pb-1">
-          Astrological Services
+          Services
         </h1>
         <p className="text-slate-500 text-center md:w-[60%] mx-auto mb-8">
           Explore the different astrological services we offer to guide you on your life path. Whether you're seeking insights into your love life, career, or personal growth, we can help you navigate through the stars.

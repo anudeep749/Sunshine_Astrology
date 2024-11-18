@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar.jsx";
 import Home from "./components/Home/Home.jsx";
 import About from "./components/about/About.jsx";
 import Services from "./components/services/Services.jsx";
-import Footer from "./components/footer/Footer.jsx";
+// import Footer from "./components/footer/Footer.jsx";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
 import Contacts from "./components/Contacts/Contacts.jsx";
 
@@ -16,7 +16,6 @@ const App = () => {
       <Testimonials />
       <Services />
       <Contacts />
-      <Footer />
     </div>
   );
 };
