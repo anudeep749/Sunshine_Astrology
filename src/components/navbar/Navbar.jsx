@@ -48,7 +48,7 @@ const Navbar = () => {
           <h1 className="text-3xl md:text-5xl font-bold text-primary flex justify-center items-center ">
           Sunshine Astrology
           </h1>
-          <div className="hidden sm:block">
+          <div className="">
             <ul className="flex items-center gap-4 dark:text-white">
               {navMenus.map((navMenu, index) => {
                 return (

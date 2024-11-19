@@ -12,26 +12,23 @@ const Testimonials = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Testimonial Card 1 */}
           <div className="bg-white dark:bg-slate-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+            <img src="src/assets/client1.jpg"alt="Testimonial Card 1" class="w-50 h-20 mx-auto mb-2"/>
             <h3 className="text-xl font-semibold text-black dark:text-white">Client 1</h3>
             <p className="text-slate-500 dark:text-slate-300 mt-2">"The service was incredible! It really helped me understand my future better."</p>  
           </div>
 
           {/* Testimonial Card 2 */}
           <div className="bg-white dark:bg-slate-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+          <img src="src/assets/client2.jpg"alt="Testimonial Card 2" class="w-50 h-20 mx-auto mb-2"/>
             <h3 className="text-xl font-semibold text-black dark:text-white">Client 2</h3>
             <p className="text-slate-500 dark:text-slate-300 mt-2">"Fantastic reading, very accurate. I was amazed by the insights shared."</p>  
           </div>
 
           {/* Testimonial Card 3 */}
           <div className="bg-white dark:bg-slate-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+          <img src="src/assets/client3.jpg"alt="Testimonial Card 3" class="w-50 h-20 mx-auto mb-2"/>
             <h3 className="text-xl font-semibold text-black dark:text-white">Client 3</h3>
             <p className="text-slate-500 dark:text-slate-300 mt-2">"The reading was very helpful. It gave me a new perspective on my career."</p>
-          </div>
-
-          {/* Testimonial Card 4 */}
-          <div className="bg-white dark:bg-slate-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-            <h3 className="text-xl font-semibold text-black dark:text-white">Client 4</h3>
-            <p className="text-slate-500 dark:text-slate-300 mt-2">"I felt a deep connection with the reading. Very enlightening experience."</p>
           </div>
         </div>
       </div>
