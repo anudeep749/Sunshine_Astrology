@@ -43,10 +43,10 @@ const Navbar = () => {
 
   return (
     <>
-      <nav id="home" className="bg-secondary dark:bg-gray-900">
+      <nav className="bg-secondary dark:bg-gray-900 fixed top-0 left-0 w-full z-20 border-b border-pink-900 dark:border-white overflow-hidden">
         <div className="container flex justify-between items-center py-3 sm:py-0">
           <h1 className="text-3xl md:text-5xl font-bold text-primary flex justify-center items-center ">
-          Sunshine Astrology
+            Sunshine Astrology
           </h1>
           <div className="">
             <ul className="flex items-center gap-4 dark:text-white">
