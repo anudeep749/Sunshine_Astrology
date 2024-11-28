@@ -7,6 +7,7 @@ export default {
       colors: {
         primary: "#ec4899",
         secondary: "#f3f3f3",
+        terinary: "#edebeb",
       },
     },
     container: {

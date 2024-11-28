@@ -1,9 +1,9 @@
 // Footer.js
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-6">
+    <footer className="bg-gray-800 dark:bg-black text-white py-6">
       <div className="container mx-auto text-center">
         {/* Footer Title */}
         <p className="text-2xl font-semibold mb-4">Astrology Website</p>
@@ -22,7 +22,9 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <p className="text-sm">&copy; 2024 Astrology Website. All rights reserved.</p>
+        <p className="text-sm">
+          &copy; 2024 Astrology Website. All rights reserved.
+        </p>
       </div>
     </footer>
   );
