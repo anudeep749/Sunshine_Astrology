@@ -4,7 +4,7 @@ import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 const navMenus = [
   {
     name: "Home",
-    link: "/",
+    link: "/#home",
   },
   {
     name: "About",
@@ -43,18 +43,23 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-secondary dark:bg-gray-900 fixed top-0 left-0 w-full z-20 border-b border-pink-900 dark:border-white overflow-hidden">
+      <nav className="bg-secondary dark:bg-gray-900 fixed top-0 left-0 w-full z-20 border-b border-y-red-900 dark:border-white overflow-hidden">
         <div className="container flex justify-between items-center py-3 sm:py-0">
-          <h1 className="text-3xl md:text-5xl font-bold text-primary flex justify-center items-center ">
-            Sunshine Astrology
+        <img
+              src="src/assets/astro.jpg"
+              alt=" "
+              class="w-40 h-20 mx-auto mb-1"
+            />
+          <h1 className="text-2xl md:text-4xl font-bold text-red-600 dark:text-white">
+            Sree Veda Gaayatri Astro
           </h1>
-          <div className="">
-            <ul className="flex items-center gap-4 dark:text-white">
+          <div className="hidden sm:block">
+            <ul className="flex items-center gap-10 dark:text-white">
               {navMenus.map((navMenu, index) => {
                 return (
                   <li key={index}>
                     <a
-                      className="text-xl font-semibold px-2 py-4 md:py-6 inline-block cursor-pointer"
+                      className="text-xl font-semibold px-5  md:py-4 inline-block cursor-pointer"
                       href={navMenu.link}
                     >
                       {navMenu.name}
@@ -103,7 +108,7 @@ const Navbar = () => {
                     return (
                       <li key={index}>
                         <a
-                          className="text-xl font-semibold px-2 py-4 md:py-6 inline-block cursor-pointer"
+                          className="text-xl font-semibold px-1 py-4 md:py-6 inline-block cursor-pointer"
                           href={navMenu.link}
                           onClick={() => setShowMenu(false)}
                         >

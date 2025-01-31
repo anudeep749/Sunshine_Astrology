@@ -6,7 +6,7 @@ const Services = () => {
     <section className="bg-secondary dark:bg-gray-900 dark:text-white py-16">
       <div className="container space-y-4 py-12 sm:py-0">
         <div className=" flex flex-col items-center">
-          <h1 className="inline-block text-3xl text-center font-bold mb-3 border-b-2 border-primary pb-1">
+          <h1 className="inline-block text-3xl text-center font-bold mb-3 pb-1">
             Services
           </h1>
           <p className="text-slate-500 text-center md:w-[60%] mx-auto mb-8">
@@ -27,11 +27,6 @@ const Services = () => {
             title="Love & Relationship Astrology"
             description="Discover compatibility with your partner or gain clarity about your love life."
             icon="❤️"
-          />
-          <ServicesBox
-            title="Tarot Card Readings"
-            description="Receive intuitive guidance from the tarot to answer your burning questions and find clarity."
-            icon="🔮"
           />
           <ServicesBox
             title="Career & Finance Astrology"
