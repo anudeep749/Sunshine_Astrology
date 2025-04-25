@@ -17,10 +17,10 @@ const Contacts = () => {
             </h1>
           </div>
           <div className="">
-            <p>Email id: astrologywebsite@gmail.com</p>
+            <p>Email id: deepikasunshine72@gmail.com</p>
             <br />
 
-            <p>Phone number : 9999999999</p>
+            <p>Phone number : 9121841172</p>
           </div>
         </div>
       </div>
